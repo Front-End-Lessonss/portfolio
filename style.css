@@ -1,0 +1,152 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+/* navbar */
+nav{
+    display:flex;
+    /* flex-direction:row */
+    justify-content:space-between;
+    padding:30px 100px;
+    align-items: center;
+    
+}
+
+nav .links a{
+    text-decoration: none;
+    color:#000;
+    margin-right:18px
+}
+
+nav .links a:hover{
+    color:rgb(47, 16, 133)
+}
+nav .fa-bars{
+    display: none;
+    font-size:20px;
+    cursor: pointer;
+    /* visibility:hidden */
+}
+
+/* introduction */
+.introduction{
+    padding:50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+/* flex-direction, justify-content, align-items  display:flex olmadan islemir */
+
+.intro-left-side h1{
+    font-size:72px;
+    margin:0
+}
+.intro-left-side .orange{
+    color:#FF8A56;
+    
+}
+.intro-left-side p{
+    color:#666;
+    font-size: 22px;
+    margin:45px 0;
+}
+.intro-left-side .booking{
+    font-size:20px;
+    color:#fff;
+    background-color: #000;
+    padding:12px 15px;
+    text-decoration: none;
+    border:1px solid #000;
+    margin-right:25px
+}
+.intro-left-side .booking:hover{
+    color:#000;
+    background-color: #fff;
+}
+.intro-left-side .cv{
+    text-decoration: none;
+    color:#000;
+    font-size:20px;
+    display: inline-block;
+}
+.intro-left-side .cv:hover{
+  scale:1.1;
+  transition: all .8s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsiv design */
+
+@media(max-width:860px){
+
+nav .links{
+    display: none;
+}
+
+nav .fa-bars{
+    display: inline-block;
+}
+
+nav{
+    padding:30px 40px;
+}
+
+
+
+}
+
+@media(max-width:1120px){
+    .introduction{
+        flex-direction: column;
+        text-align: center;
+    }
+    .intro-left-side{
+        
+        margin-bottom:90px
+    }
+}
