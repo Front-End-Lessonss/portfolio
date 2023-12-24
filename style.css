@@ -205,6 +205,60 @@ nav .fa-bars{
 
 
 
+/* WORK-EDUCATION DESIGN */
+.work-education{
+    padding:60px 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.work-education span:nth-child(even){
+    padding-left:80px
+}
+.work, .education{
+    width:48%;
+    
+}
+
+.work-education p{
+    font-size:36px;
+}
+.university, .workplace{
+    border-bottom: 1px solid rgba(229, 229, 229, 1);
+    padding-bottom:30px
+}
+
+/* EDUCATION */
+
+.university-top{
+    display: flex;
+    justify-content: space-between;
+}
+.university-bottom span{
+    color:rgba(0, 0, 0, 0.6)
+}
+
+/* WORK */
+.experience{
+    display: flex;
+    align-items: center;
+}
+.workplace{
+    width:90%
+}
+.workplace .work-top{
+    display: flex;
+    justify-content: space-between;
+}
+.workplace .work-bottom{
+    color:rgba(0, 0, 0, 0.6)
+}
+.icon{
+    margin-right:20px
+}
+
+
+
 
 
 
