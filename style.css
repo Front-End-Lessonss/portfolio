@@ -257,7 +257,104 @@ nav .fa-bars{
     margin-right:20px
 }
 
+/* FAQ SECTION DESIGN */
 
+.faq{
+    padding:60px 100px;
+    background-color: #000;
+    color:#fff;
+}
+
+
+.faq h3{
+    font-size:22px;
+    color:rgba(255, 138, 86, 1);
+    letter-spacing: 4px;
+    margin-bottom:5px;
+    text-align: center;
+}
+.faq h1{
+    font-size:54px;
+    margin:0;
+    text-align: center;
+}
+.questions{
+    display: flex;
+    justify-content: space-between;
+    padding-top:50px;
+}
+.questions .questions-left,
+.questions .questions-right{
+    width:80%;
+    margin-right:30px;
+}
+
+.questions .question{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid rgba(229, 229, 229, 0.3);
+    padding-bottom:15px;
+    margin-bottom:15px;
+    
+}
+
+.questions .question h5{
+    font-size:24px
+}
+
+.ending{
+    padding-top:150px;
+}
+.ending h1{
+    text-align: left;
+    font-size: 54px;
+    margin:0
+}
+
+.ending h1:nth-child(2){
+    color:rgba(60, 70, 255, 1);
+}
+
+.portfolio-creator{
+    padding-top:80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolio-creator .adress p,
+.portfolio-creator .adress span{
+  color:#666666;
+  font-size: 17px;
+}
+.social-medias{
+    display: flex;
+    width:40%;
+    justify-content: space-between;
+    
+}
+.social-medias a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 18px;
+    margin-top:27px;
+    
+}
+.social-medias a:hover{
+    scale:1.1;
+    transition: all .8s;
+}
+.media-links{
+    display: flex;
+    flex-direction: column;
+    
+}
+footer{
+    padding-top:130px;
+    color:#8A95AD
+}
+footer span{
+    margin-right:10px
+}
 
 
 
